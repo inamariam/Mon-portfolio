@@ -1,0 +1,56 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+.page {
+  width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+}
+nav button {
+  margin-left: 10px;
+}
+.presentation, .projets, .liste-cours, .contact {
+  margin-top: 30px;
+}
+.cartes {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.carte {
+  width: 30%;
+  background: #f9f9f9;
+  padding: 10px;
+  text-align: center;
+}
+.carte img {
+  width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+}
+.contact input, .contact textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+.social-icons img {
+  width: 30px;
+  margin: 0 5px;
+}
